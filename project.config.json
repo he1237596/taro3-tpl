@@ -1,0 +1,41 @@
+{
+    "miniprogramRoot": "dist/",
+    "projectname": "myApp",
+    "description": "",
+    "appid": "wxe02fecda48e38b90",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "enhance": false,
+        "compileHotReLoad": false,
+        "postcss": false,
+        "preloadBackgroundData": false,
+        "minified": false,
+        "newFeature": true,
+        "autoAudits": false,
+        "coverView": true,
+        "showShadowRootInWxmlPanel": false,
+        "scopeDataCheck": false,
+        "useCompilerModule": false,
+        "condition": false,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "simulatorType": "wechat",
+    "simulatorPluginLibVersion": {},
+    "condition": {},
+    "libVersion": "2.32.0",
+    "srcMiniprogramRoot": "dist/",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}
