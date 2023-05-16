@@ -1,0 +1,71 @@
+@import '../../common.scss';
+$mg-white:#fff; //白色
+
+page {
+  background: $mg-main-bg-color;
+  color: #fff;
+}
+
+.main {
+  font-size: 32px;
+  padding: 0 64px;
+
+  .logoWrap {
+    height: 316px;
+    padding-top: 104px;
+    text-align: center;
+
+    .mesName {
+      padding-top: 32px;
+      font-weight: bolder;
+    }
+
+    .logoImg {
+      background: inherit;
+      margin: 0 auto;
+      width: 164px;
+      height: 184px;
+    }
+  }
+
+  .form {
+    display: inherit;
+    background: $mg-main-bg-color;
+
+    .fileItem {
+      position: relative;
+      padding-bottom: 40px;
+
+      // background: rgba(255,255,255,0.08);
+      .iconfont {
+        font-size: 36px;
+        z-index: 1;
+        position: absolute;
+        top: 32px;
+        left: 48px;
+        // color: rgba($color: $mg-white, $alpha: 0.4);
+        color: #000;
+      }
+
+      .mg-input {
+        padding: 28px 0 28px 128px;
+        // background: $mg-input-bg;
+        margin: 0;
+        color: $mg-white;
+      }
+    }
+
+    .forgetPassword {
+      padding-bottom: 80px;
+      padding-right: 16px;
+      color: rgba($color: $mg-white, $alpha: 0.4);
+      font-size: 28px;
+      // cursor: pointer;
+      text-align: right;
+    }
+
+    .sub-btn {
+      height: 96px;
+    }
+  }
+}

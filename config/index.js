@@ -1,4 +1,11 @@
+import { resolve } from 'path';
+
 const config = {
+  alias: {
+    '@components': resolve(__dirname, '../', 'src/components'),
+    '@utils': resolve(__dirname, '../', 'src/utils'),
+    '@services': resolve(__dirname, '../', 'src/services')
+  },
   projectName: 'myApp',
   date: '2023-5-16',
   designWidth: 750,
@@ -66,7 +73,7 @@ const config = {
   }
 }
 
-module.exports = function (merge) {
+export default function (merge) {
   if (process.env.NODE_ENV === 'development') {
     return merge({}, config, require('./dev'))
   }

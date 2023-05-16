@@ -1,0 +1,43 @@
+/*
+ * @Description: 主题样式,覆盖默认
+ * @Author: Chris
+ * @Date: 2019-07-02 14:54:23
+ * @LastEditTime: 2019-07-15 18:15:22
+ * @LastEditors: Chris
+ */
+ /* Custom Theme */
+$color-brand: #00b1ff;
+$color-brand-light: #40c5ff;
+$color-brand-dark: #008ecc;
+$at-input-text-color: #fff !default;
+// $at-label-text-color: #fff !default;
+@import "~taro-ui/dist/style/index.scss";
+@import './asset/icon.scss';
+
+.at-modal__header,
+.at-modal__content,
+.at-modal__footer{
+  background-color: #1C2736;
+}
+.at-modal__header{
+  color: #fff;
+}
+.at-modal__header::after{
+  border: none;
+} 
+.at-modal__content{
+  color: rgba(255,255,255,0.6)
+}
+.at-modal__footer{
+  &::before{
+    border-color: #43474D;
+  }
+  .at-modal__action{
+    button{
+      color: rgba(255,255,255,0.6)
+    }
+  }
+}
+.at-modal__footer .at-modal__action > button:not(:first-child)::after {
+  border-color: #43474D;
+}

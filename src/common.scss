@@ -1,0 +1,40 @@
+/*
+ * @Description: 公共变量
+ * @Author: Chris
+ * @Date: 2019-07-02 20:02:06
+ * @LastEditTime: 2019-10-14 20:19:59
+ * @LastEditors: Chris
+ */
+$mg-main-bg-color: #1C2736;//主题背景色
+$mg-input-bg:#293341;//input背景色
+$mg-white:#fff;//白色
+$mg-error-bg:#E64545;//顶部错误提示背景
+$primary-color: #00B1FF;
+$mg-bg-color: #131A24;
+
+$mg-page-bg-color: #EFF2F6;
+$card-bg: rgba(255,255,255,0.1);
+$mg-split-color: #F0F0F0;
+$mg-success-color: #1AC888;
+$mg-gray-color: rgba(0,0,0,0.4);
+
+$text-color: rgba(255,255,255,0.85);
+$text-color-secondary: rgba(255,255,255,0.6);
+$text-color-dark: rgba(0,0,0,0.85);
+$text-color-secondary-dark: rgba(0,0,0,0.6);
+$text-color-thirdary-dark: rgba(0,0,0,0.4);
+$border-color: #F0F0F0;
+
+
+.at-action-sheet{
+  .at-action-sheet__container,
+  .at-action-sheet__body,
+  .at-action-sheet__item{
+    background-color: $mg-main-bg-color;
+  }
+
+
+  .at-action-sheet__item{
+    color: rgba($color: $mg-white, $alpha: 0.6)
+  }
+}
