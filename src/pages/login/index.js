@@ -2,7 +2,7 @@
  * @Description: 登录
  * @Author: Chris
  * @Date: 2019-07-02 10:56:49
- * @LastEditTime: 2023-05-16 16:44:34
+ * @LastEditTime: 2023-05-17 18:39:17
  * @LastEditors: Chris
  */
 import { Component } from 'react'
@@ -87,7 +87,7 @@ class Login extends Component {
       <View className='main'>
         <View className='logoWrap'>
           <AtAvatar image={logo} className='logoImg'></AtAvatar>
-          <View className='mesName'>云 智 控</View>
+          {/* <View className='mesName'>云 智 控</View> */}
         </View>
         <AtForm className='form'
           onSubmit={this.onSubmit.bind(this)}

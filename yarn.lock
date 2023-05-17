@@ -1849,6 +1849,16 @@
     "acorn-walk" "^8.0.0"
     "lodash" "^4.17.21"
 
+"@tarojs/plugin-html@^3.6.6":
+  "integrity" "sha512-mkdsum+nZbwIYxuBNYRABz664wRQogYqdAjKcnjio8J4NbtM7sBhwlugNjs6MaeA0GM0Jle6Y+biw6RkGrHklA=="
+  "resolved" "https://registry.npmmirror.com/@tarojs/plugin-html/-/plugin-html-3.6.6.tgz"
+  "version" "3.6.6"
+  dependencies:
+    "@babel/parser" "^7.20.0"
+    "@tarojs/runtime" "3.6.6"
+    "@tarojs/service" "3.6.6"
+    "@tarojs/shared" "3.6.6"
+
 "@tarojs/plugin-platform-alipay@3.6.5":
   "integrity" "sha512-nnDL3fKqVmJZa7TbZKVJFRff+rb2KAuAFDJ7nLQ30Qzwi7YyyMkIIUwISvIMwn1xntsLXdz0cjWm3f0+9BcjvA=="
   "resolved" "https://registry.npmmirror.com/@tarojs/plugin-platform-alipay/-/plugin-platform-alipay-3.6.5.tgz"
@@ -1978,14 +1988,6 @@
     "@tarojs/shared" "3.6.6"
     "react-reconciler" "0.27.0"
 
-"@tarojs/redux@^2.2.10":
-  "integrity" "sha512-t2dkhUi5W7iVO5GBPIqxNQEfSHm5UBtdIssQFn69Hd4vhuEWLATUBCLa4Ki8fYz1s+peqLfNuObz2svVKOiRDg=="
-  "resolved" "https://registry.npmmirror.com/@tarojs/redux/-/redux-2.2.10.tgz"
-  "version" "2.2.10"
-  dependencies:
-    "@tarojs/taro" "^2.2.10"
-    "@tarojs/utils" "^2.2.10"
-
 "@tarojs/router@3.6.5":
   "integrity" "sha512-ZjZiu6OfVVIBvy1fuUYBnhSCt5fh/LS4jzWA++CF2fjxfQ98Anu3rYag4xbpLaeq5UEZfBwgR2xoroFXRCvTYQ=="
   "resolved" "https://registry.npmmirror.com/@tarojs/router/-/router-3.6.5.tgz"
@@ -2102,13 +2104,6 @@
     "@tarojs/taro" "3.6.5"
     "loader-utils" "^1.2.3"
 
-"@tarojs/taro@^2.2.10":
-  "integrity" "sha512-6fYGgdObitLECGv+3eKsYaD4iMmuZ+CzGAEuj0IYR7+HRz+0v7PGkovf3F+hHev8xljluCOJWHRzqA3aEoCqlg=="
-  "resolved" "https://registry.npmmirror.com/@tarojs/taro/-/taro-2.2.19.tgz"
-  "version" "2.2.19"
-  dependencies:
-    "@tarojs/utils" "2.2.19"
-
 "@tarojs/taro@3.6.5":
   "integrity" "sha512-z0aGWV0tlTArGmaA4FXPOvfRX1CuuEb0CO2N4R4N8qp842p7E3OWGvXNNwNMK+2KvjOYtW2oG+uUlDekOP+0IQ=="
   "resolved" "https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.5.tgz"
@@ -2124,11 +2119,6 @@
   dependencies:
     "@tarojs/api" "3.6.6"
     "@tarojs/runtime" "3.6.6"
-
-"@tarojs/utils@^2.2.10", "@tarojs/utils@2.2.19":
-  "integrity" "sha512-KA22Hu/YJ5Hd9L+DOS8kGM66Aqf3VREA3lzAKMTCaOnW8fV0ZDGn706jr+/ZLAjhqU4i9MbeTQHfBI614jVuXg=="
-  "resolved" "https://registry.npmmirror.com/@tarojs/utils/-/utils-2.2.19.tgz"
-  "version" "2.2.19"
 
 "@tarojs/webpack5-prebundle@3.6.5":
   "integrity" "sha512-ViCilDXgPDIaYdJk0RgaFX9W11xlSM23Ubgapu8yAjpKmQ8hysmr+EnNqn5MEpBfGtjNzwPa5lzF/khy/NBjxA=="
@@ -9485,24 +9475,6 @@
   "resolved" "https://registry.npmmirror.com/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
-"nerv-shared@1.4.0":
-  "integrity" "sha512-cCyeP1hnnnMfM5HRcmMKconGwI8Wl0xwekAU4DvqDC1M8NxCOF4TwDmedgdgyNt9EkWNbiotBRUV5zJsbfOQWA=="
-  "resolved" "https://registry.npmmirror.com/nerv-shared/-/nerv-shared-1.4.0.tgz"
-  "version" "1.4.0"
-
-"nerv-utils@1.4.5":
-  "integrity" "sha512-9XeifC0l+aDXhA0aXcklxS2o7o87xJxMQAl1+iIHrD5Sei/61ubap0oOzb4t9VMhSEvwWm4/rJRd8PGMKZiwiA=="
-  "resolved" "https://registry.npmmirror.com/nerv-utils/-/nerv-utils-1.4.5.tgz"
-  "version" "1.4.5"
-
-"nervjs@^1.5.0":
-  "integrity" "sha512-x+hGSOETqA+7lbChW+c/NIXEMrCCvm6IaEHlDbZmaNVX0TAyKZinRIHcYr7o5K/pA4qGWjJQmjoNyx+Mx+rVLg=="
-  "resolved" "https://registry.npmmirror.com/nervjs/-/nervjs-1.5.7.tgz"
-  "version" "1.5.7"
-  dependencies:
-    "nerv-shared" "1.4.0"
-    "nerv-utils" "1.4.5"
-
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
   "resolved" "https://registry.npmmirror.com/nice-try/-/nice-try-1.0.5.tgz"
@@ -12807,7 +12779,7 @@
     "css-mediaquery" "^0.1.2"
     "postcss-value-parser" "^3.3.0"
 
-"taro-ui@^3.1.0-beta.2":
+"taro-ui@^3.1.0-beta.4":
   "integrity" "sha512-8VqX2AI2xTHR1Hw28ZzYB61Hw1cVDcSLj0IBtzdF1aWOkl/5VeFPJsCwndajBhEe+mAMKcmEFMvpBDbz3ejCqg=="
   "resolved" "https://registry.npmmirror.com/taro-ui/-/taro-ui-3.1.0-beta.4.tgz"
   "version" "3.1.0-beta.4"
